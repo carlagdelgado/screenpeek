@@ -1,0 +1,148 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0 100px;
+}
+header {
+    height: 52px;
+    margin-top: 40px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    background-image: linear-gradient(90deg,#7117ea,#e45c67);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 22px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #e45c67;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+header nav ul li:last-child a {
+    border: 2px solid #e45c67;
+    border-radius: 50px;
+    padding: 8px 12px;
+}
+section {
+    height: calc(100vh - 144px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1 {
+    text-align: center;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+
+}
+section p {
+    text-align: center;
+    color: #929292;
+    padding: 0 250px;
+    font-size: 20px;
+}
+section ul.devices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0;
+}
+section ul.devices li {
+    list-style: none;
+    margin: 0 10px;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+}
+section ul.devices li i {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+section ul.devices li:first-child {
+    border: 2px solid #e45c67;
+}
+section ul.devices li:first-child a {
+    color: #e45c67;
+}
+section ul.devices li a {
+    color: #929292;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form input {
+    width: 660px;
+    margin-bottom: 20px;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+    border: none;
+    border-radius: 15px;
+}
+.form button {
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(90deg,#7117ea,#e45c67);
+    padding: 16px 0;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.form button i {
+    margin-right: 5px;
+    
+}
+footer {
+   height: 52px;
+}
+footer nav ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+
+}
+footer nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: #929292;
+    text-align: center;
+
+}
