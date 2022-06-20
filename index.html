@@ -2,85 +2,36 @@
     <head>
         <title>Screenpeek</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="./style.css"> 
     </head>
-    <style>
-        body {
-            background-color: #f6f6f6;
-        }
-        nav {
-            display: flex;
-            justify-content: space-between;
-        }
-        header nav ul {
-            display: flex;
-        }
-        .logo a {
-            background-image: linear-gradient(90deg,#7117ea,#e45c67);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: bold;
-            text-decoration: none;
-            display: block;
-            margin-top: 1em;
-            margin-bottom: 1em
-        }
-        header nav ul li {
-            list-style: none;
-            margin: 0 10px;
-        }
-        header nav ul li a {
-            text-decoration: none;
-            color: #e45c67;
-            font-weight: bold;
-        }
-        section h1 {
-            text-align: center;
-            font-size: 38px;
-            margin-bottom: 0.75rem;
-        
-        }
-        section p {
-            text-align: center;
-            color: #929292;
-        }
-        section ul.devices {
-            display: flex;
-        }
-        section ul.devices li {
-            list-style: none;
-            margin: 0 10px;
-            background-color: white;
-            height: 20px;
-            width: 20px; 
-        }
-        section ul.devices li a {
-            text-decoration: none;
-        }
-        
-
-    </style>
+   
     <body>
         <header>
             <nav>
-                <div class="logo"><a href="#">Screenpeek</a></div>
+                <div class="logo"><a href="#">screenpeek</a></div>
                 <ul>
                     <li><a href="#">Showcase</a></li>
-                    <li><a href="#">Upgrade to Pro</a></li>
-                    <li><a href="#">Sign in with Twitter</a></li>
+                    <li><a href="#"><i class="fas fa-star"></i> Upgrade to Pro</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Sign in with Twitter</a></li>
                 </ul>
             </nav>
         </header>
         <section>
-            <h1>Paste URL, Create Mockup</h1>
-            <p>Screenpeek captures any website within a high quality mockup in seconds.</p>
-            <ul class="devices">
-                <li><a href="#">iPhone</a></li>
-                <li><a href="#">iPad</a></li>
-                <li><a href="#">MacBook</a></li>
-                <li><a href="#">iMac</a></li>
-            </ul>
-            <input type="text" placeholder="Paste your url here">
-            <button>Generate Mockup</button>
+            <div>
+                <h1>Paste URL, Create Mockup</h1>
+                <p>Screenpeek captures any website within a high quality mockup in seconds.</p>
+                <ul class="devices">
+                    <li><a href="#"><i class="fas fa-mobile-alt"></i>iPhone</a></li>
+                    <li><a href="#"><i class="fas fa-tablet-alt"></i>iPad</a></li>
+                    <li><a href="#"><i class="fas fa-laptop"></i>MacBook</a></li>
+                    <li><a href="#"><i class="fas fa-desktop"></i>iMac</a></li>
+                </ul>
+                <div class="form">
+                    <input type="text" placeholder="Paste your url here">
+                    <button><i class="fas fa-cogs"></i>Generate Mockup</button>
+                </div>
+            </div>
         </section>
         <footer>
             <nav>
